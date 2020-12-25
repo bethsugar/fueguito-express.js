@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <%- include('partials/head.html')  -%>
+</head>
+
+
+<body> 
+    <%- include('partials/navigation.html'); -%>
+
+   <div class="container">
+       <header class="fuego">
+           <div class="col-lg-12 text-center">
+                <img class="img" src="https://image.flaticon.com/icons/svg/785/785116.svg" alt="Fire">
+           </div>
+       </header>
+   </div>
+
+   <!-- Sección dos-->
+   <div class=" fluid" id= 'about'>
+       <div class="row bg-dark text-white p-5 text-center">
+            <div class="col-sm-6">
+               <h2>Un fueguito lindo </h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium consequatur quibusdam illo itaque alias ad ratione aliquid deserunt beatae.</p>
+           </div>
+           <div class="col-sm-6">
+               <i class="fas fa-mug-hot"></i>
+           </div>
+          
+       </div>
+    </div>
+    <%- include('partials/footer.html') -%>
+
+</html>
